@@ -1,0 +1,48 @@
+# Python bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+venv/
+.env/
+.envrc
+.python-version
+
+# Pytest cache
+.cache/
+.pytest_cache/
+
+# Logs and test outputs
+logs/
+*.log
+
+# Test artifacts
+htmlcov/
+coverage.xml
+*.cover
+*.pyc
+*.pyo
+*.pyd
+*.sqlite3
+
+# VS Code / PyCharm / JetBrains
+.vscode/
+.idea/
+*.iml
+
+# Jupyter notebooks checkpoints
+.ipynb_checkpoints/
+
+# OS-specific
+.DS_Store
+Thumbs.db
+
+# Build artifacts
+build/
+dist/
+*.egg-info/
+
+# Environment variables
+.env
+*.env

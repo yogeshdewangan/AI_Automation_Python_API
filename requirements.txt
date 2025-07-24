@@ -1,0 +1,8 @@
+pytest
+requests
+langchain
+openai
+python-dotenv
+crewai
+tqdm
+langchain-community
