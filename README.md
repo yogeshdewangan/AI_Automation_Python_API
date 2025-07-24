@@ -24,25 +24,5 @@ Chroma/FAISS (optional for log vector search)
 dotenv for managing secrets
 
 
-Project Structure
-
-ai_api_framework/
-├── agents/
-│   ├── test_gen_agent.py       # AI agent to generate test cases
-│   ├── test_exec_agent.py      # Executes generated tests
-│   └── log_analysis_agent.py   # Analyzes pytest logs using LLM
-│
-├── tests/
-│   └── generated_test_users.py # Output test file (AI-generated)
-│
-├── logs/
-│   └── test_failures.log
-│
-├── utils/
-│   └── helpers.py
-│
-├── main.py                     # Orchestrator
-├── .env
-└── requirements.txt
 
 Execute: python main.py
