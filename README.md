@@ -1,24 +1,38 @@
-AI_Automation_Python_API
-Modular automation framework in Python + Pytest enhanced with AI agents
+# 🤖 AI_Automation_Python_API
 
-Here's a modular automation framework in Python + Pytest enhanced with AI agents, where:
+A **modular automation framework** built with **Python + Pytest**, enhanced with **AI agents** for intelligent, autonomous API testing.
 
-🧠 Agent Roles: TestGenAgent: Uses AI (like OpenAI or CrewAI) to generate test cases for API endpoints dynamically.
+---
 
-TestExecAgent: Executes the generated tests via Pytest programmatically.
+## 🎯 Overview
 
-LogAnalysisAgent: Analyzes Pytest logs using an LLM (LangChain or CrewAI) and generates summaries or root causes.
+This framework integrates AI agents using **LangChain** or **CrewAI** to automate the full API testing lifecycle:
 
-✅ Tech Stack Python + Pytest
+### 🧠 AI Agent Roles
 
-Requests (for API testing)
+- **TestGenAgent**  
+  ➤ Uses LLMs (e.g., OpenAI or CrewAI) to dynamically generate `pytest` test cases from API descriptions or documentation.
 
-LangChain / CrewAI (for AI agents)
+- **TestExecAgent**  
+  ➤ Executes the generated test cases programmatically using `pytest` and saves logs.
 
-OpenAI or Azure OpenAI (as LLM backend)
+- **LogAnalysisAgent**  
+  ➤ Analyzes test failure logs using LLMs to provide summarized root cause analysis and intelligent debugging suggestions.
 
-Chroma/FAISS (optional for log vector search)
+---
 
-dotenv for managing secrets
+## 🧰 Tech Stack
 
-Execute: python main.py
+| Component         | Purpose                              |
+|------------------|--------------------------------------|
+| Python + Pytest  | Core test automation framework       |
+| Requests         | REST API testing                     |
+| LangChain / CrewAI | AI agent orchestration              |
+| OpenAI / Azure OpenAI | LLM backend for code and reasoning |
+| FAISS / Chroma   | (Optional) Log embedding & RAG       |
+| python-dotenv    | Secrets management                   |
+
+---
+
+## 🗂️ Project Structure
+
